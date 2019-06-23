@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+     <div>My Tasks</div>
+     {% for task in list %}
+
+     {% if list[task]['done'] == False %}
+
+          <div>{{ task }}</div>
+          <div>{{ list[task]['desc'] }}</div>
+          
+          <a href="/delete/{{ list[task]['id'] }}">
+               <input type="button" value="Done">
+          </a>
+          {% endif %}
+
+     {% endfor %}
+     <br>
+     <a href="/add">
+          <input type="button" value="Add a new task">
+     </a>
+</body>
+</html>
