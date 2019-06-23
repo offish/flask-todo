@@ -1,0 +1,12 @@
+{
+    "Example Task 1": {
+        "id": 0,
+        "done": false,
+        "desc": "Example Text"
+    },
+    "Example Task 2": {
+        "id": 1,
+        "done": false,
+        "desc": "Example Text 2"
+    }
+}
