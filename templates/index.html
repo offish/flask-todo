@@ -6,12 +6,12 @@
 
           {% if list[task]['done'] == False %}
 
-          <div>{{ task }}</div>
-          <div>{{ list[task]['desc'] }}</div>
-          
-          <a href="/delete/{{ list[task]['id'] }}">
-               <input type="button" value="Done">
-          </a>
+               <div>{{ task }}</div>
+               <div>{{ list[task]['desc'] }}</div>
+
+               <a href="/delete/{{ list[task]['id'] }}">
+                    <input type="button" value="Done">
+               </a>
           {% endif %}
 
      {% endfor %}
