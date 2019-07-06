@@ -1,12 +1,12 @@
 {
-    "Example Task 1": {
-        "id": 0,
+    "Test": {
+        "time": 1562431789,
         "done": false,
-        "desc": "Example Text"
+        "desc": "Here's a test"
     },
-    "Example Task 2": {
-        "id": 1,
+    "Test 2": {
+        "time": 1562431767,
         "done": false,
-        "desc": "Example Text 2"
+        "desc": "And here's another test"
     }
 }
